@@ -1,0 +1,10 @@
+name: gha-lab1 Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: gha-lab1 First Step
+        run: echo "gha-lab1 Welcome"
+      - name: gha-lab1 Last Step
+        run: echo "gha-lab1 Complete"
