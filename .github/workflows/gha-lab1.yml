@@ -1,0 +1,10 @@
+name: gha-lab-1
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print step-1
+        run: echo "Learning Github Actions"
+      - name: Print step-2
+        run: echo "This is First Workflow of Github Actions"
